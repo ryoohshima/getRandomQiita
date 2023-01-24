@@ -1,0 +1,2 @@
+# getRandomQiita
+Qiitaの記事をRandomに取得するサービス
