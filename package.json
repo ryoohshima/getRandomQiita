@@ -1,0 +1,31 @@
+{
+  "name": "getrandomqiita",
+  "version": "1.0.0",
+  "description": "Qiitaの記事をRandomに取得するサービス",
+  "main": "app.js",
+  "serverless-express": {
+    "handler": "index.handler"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon app.js",
+    "zip": "zip -r lambda.zip . -x '.git/*'"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://ryoohshima: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@github.com/ryoohshima/getRandomQiita.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ryoohshima/getRandomQiita/issues"
+  },
+  "homepage": "https://github.com/ryoohshima/getRandomQiita#readme",
+  "dependencies": {
+    "@vendia/serverless-express": "^4.10.1",
+    "axios": "^1.2.5",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "nodemon": "^2.0.20"
+  }
+}
